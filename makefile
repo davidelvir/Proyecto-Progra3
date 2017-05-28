@@ -28,9 +28,6 @@ Elfo.o:  Elfo.h Elfo.cpp Personaje.h
 Criatura.o:  Criatura.h Criatura.cpp Personaje.h 
 	g++ -c Criatura.cpp 
  
-Humano.o: Humano.cpp Humano.h Personaje.h
-	g++ -c Humano.cpp 
- 
 guerreroHumano.o:  guerreroHumano.h guerreroHumano.cpp Humano.h Personaje.h
 	g++ -c guerreroHumano.cpp 
  
