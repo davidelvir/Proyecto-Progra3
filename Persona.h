@@ -5,7 +5,6 @@ using namespace std;
 
 #ifndef PERSONA_H
 #define PERSONA_H
-
 class Persona{
     protected:
         string Nombre;
