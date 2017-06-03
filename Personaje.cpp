@@ -5,6 +5,25 @@
 
 using namespace std;
 
+Personaje::Personaje(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello){
+
+	this->Nombre=Nombre;
+    this->Vida=Vida;
+    this->Defensa=Defensa;
+    this->Ataque=Ataque;
+    this->Reputacion=Reputacion;
+	this->Nivel=Nivel;
+    this->Experiencia=Experiencia;
+    this->Bolas=Bolas;
+    this->estiloCabello=estiloCabello;
+    this->Stamina=true;
+
+}
+
+Personaje::Personaje(){
+	
+}
+
 string Personaje::getNombre(){
 	return Nombre;
 }

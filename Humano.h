@@ -14,12 +14,11 @@ class Humano:public Personaje{
 	string Color;
 
     public:
-        Jugador(string,double,double,double,string,int,string);
-        Jugador();
-		Personaje getPersonaje();
-		void setPersonaje(Personaje personaje);
-
-
+        
+    	Humano(string, double,double,double,string,int,int,int,string, string);
+        Humano();
+        string getColor();
+        void setColor(string);
 
 };
 #endif

@@ -1,41 +1,27 @@
 #include "Humano.h"
 
-Persona::Persona(){
+Humano::Humano(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello, string Color){
     this->Nombre=Nombre;
-    this->Username=Username;
-    this->Password=Password;
-    this->Edad=Edad;
-    this->Carrera=Carrera;
+    this->Vida=Vida;
+    this->Defensa=Defensa;
+    this->Ataque=Ataque;
+    this->Reputacion=Reputacion;
+    this->Nivel=Nivel;
+    this->Experiencia=Experiencia;
+    this->Bolas=Bolas;
+    this->estiloCabello=estiloCabello;
+    this->Stamina=true;
+    this->Color=Color;
+    
 }
-Persona::Persona(){
 
-}void Persona::setNombre(string Nombre){
-   this-> Nombre=Nombre;
+Humano::Humano(){
 }
-string Persona::getNombre(){
-   return Nombre;
+
+void Humano::setColor(string Color){
+   this-> Color=Color;
 }
-void Persona::setUsername(string Username){
-   this-> Username=Username;
-}
-string Persona::getUsername(){
-   return Username;
-}
-void Persona::setPassword(string Password){
-   this-> Password=Password;
-}
-string Persona::getPassword(){
-   return Password;
-}
-void Persona::setEdad(int Edad){
-   this-> Edad=Edad;
-}
-int Persona::getEdad(){
-   return Edad;
-}
-void Persona::setCarrera(string Carrera){
-   this-> Carrera=Carrera;
-}
-string Persona::getCarrera(){
-   return Carrera;
+
+string Humano::getColor(){
+   return Color;
 }

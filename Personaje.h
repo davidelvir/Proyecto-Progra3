@@ -20,7 +20,7 @@ class Personaje{
         vector<Item*>Bolsa;
         int Bolas;
         vector<Personaje*>Aliados;
-        vecttor<Bestia*>Bestias;
+        vector<Bestia*>Bestias;
         Item Armadura;
         Item Arma;
         bool Stamina;
@@ -28,6 +28,10 @@ class Personaje{
 
     public:
         
+        Personaje(string, double,double,double,string,int,int,int,string);
+        Personaje();
+
+
         string getNombre();
         void setNombre(string);
 
