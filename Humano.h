@@ -15,7 +15,7 @@ class Humano:public Personaje{
 
     public:
         
-    	Humano(string, double,double,double,string,int,int,int,string, string);
+    	Humano(string, double,double,double,string,int,int,int,string, string,double);
         Humano();
         string getColor();
         void setColor(string);
