@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Personaje::Personaje(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello){
+Personaje::Personaje(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello,double Dinero){
 
 	this->Nombre=Nombre;
     this->Vida=Vida;
@@ -17,11 +17,18 @@ Personaje::Personaje(string Nombre, double Vida, double Defensa, double Ataque,s
     this->Bolas=Bolas;
     this->estiloCabello=estiloCabello;
     this->Stamina=true;
-
+    this->Dinero;
 }
 
 Personaje::Personaje(){
 	
+}
+
+double Personaje::getDinero(){
+  return Dinero;
+}
+void Personaje::setDinero(double pDinero){
+  Dinero = pDinero;
 }
 
 string Personaje::getNombre(){

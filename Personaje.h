@@ -25,12 +25,15 @@ class Personaje{
         Item Arma;
         bool Stamina;
         string estiloCabello;
+        double Dinero;
 
     public:
         
-        Personaje(string, double,double,double,string,int,int,int,string);
+        Personaje(string, double,double,double,string,int,int,int,string,double);
         Personaje();
 
+        double getDinero();
+        void setDinero(double);
 
         string getNombre();
         void setNombre(string);
