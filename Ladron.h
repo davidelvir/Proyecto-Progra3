@@ -3,8 +3,8 @@
 #define LADRON_H
 
 class Ladron : public Humano{
-
-  Ladron();
+  public:
+    Ladron();
   
 };
 
