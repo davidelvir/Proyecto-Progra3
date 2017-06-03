@@ -27,8 +27,7 @@ class Personaje{
         string estiloCabello;
 
     public:
-        Personaje(string,double,double,double,string,int);
-        Personaje();
+        
         string getNombre();
         void setNombre(string);
 
