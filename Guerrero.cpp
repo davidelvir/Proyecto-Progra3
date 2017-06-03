@@ -25,15 +25,6 @@ Guerrero::Guerrero(){
 	this->Dinero=0;
 	this->Nivel=1;
 	this->Experiencia=0;
-	this->Reputacion=0;
 	this->Bolas=0;
 
-}
-
-void Guerrero::setColor(string Color){
-   this-> Color=Color;
-}
-
-string Guerrero::getColor(){
-   return Color;
 }
