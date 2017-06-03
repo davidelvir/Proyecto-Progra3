@@ -1,7 +1,7 @@
 #include "Humano.h"
 #include "Witcher.h"	
 
-Withcer::Withcer(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello, string Color, double Dinero){
+Witcher::Witcher(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello, string Color, double Dinero){
     this->Nombre=Nombre;
     this->Vida=Vida;
     this->Defensa=Defensa;
@@ -16,7 +16,7 @@ Withcer::Withcer(string Nombre, double Vida, double Defensa, double Ataque,strin
     this->Dinero=Dinero;
 }
 
-Withcer::Withcer(){
+Witcher::Witcher(){
 
 	this->Vida=300;
 	this->Defensa=300;
