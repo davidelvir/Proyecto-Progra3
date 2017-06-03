@@ -13,7 +13,7 @@ class Jugador{
     public:
         Jugador();
         Jugador();
-	Personaje getPersonaje();
-	void setPersonaje(Personaje personaje);
+		Personaje getPersonaje();
+		void setPersonaje(Personaje personaje);
 };
 #endif

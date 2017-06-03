@@ -17,20 +17,21 @@ Administrador::Administrador(){
 
 }
 
-void EliminarUsuario(vector<Jugador*> jugadores){
+void Administrador::EliminarUsuario(vector<Jugador*> jugadores){
 	//Falta crear aqui metodo para eliminar un solo usuario
 
 }
 
-void AgregarUsuario(vector <Jugador*> jugadores){
+void Administrador::AgregarUsuario(vector <Jugador*> jugadores){
 	//falta crea metodo para agregar un jugador;
 
 
 }
 
 
-void AutoDestruir(vector <Jugador*> jugadores){
+void Administrador::AutoDestruir(vector <Jugador*> jugadores){
 	//falta aqui crear el metodo para chingar todo
+	
 
 
 }

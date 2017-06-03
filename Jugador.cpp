@@ -4,6 +4,7 @@
 
 Jugador::Jugador(string nombre,string username,string contrasena,int edad,string carrera,Personaje personaje):Personaje(nombre,username,contrasena,edad,carrera){
 }
+
 Jugador::Jugador(){
 
 }
