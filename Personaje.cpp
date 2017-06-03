@@ -17,7 +17,7 @@ Personaje::Personaje(string Nombre, double Vida, double Defensa, double Ataque,s
     this->Bolas=Bolas;
     this->estiloCabello=estiloCabello;
     this->Stamina=true;
-    this->Dinero;
+    this->Dinero=Dinero;
 }
 
 Personaje::Personaje(){
