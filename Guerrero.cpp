@@ -1,4 +1,5 @@
-#include "Humano.h"	
+#include "Humano.h"
+#include "Guerrero.h"	
 
 Guerrero::Guerrero(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello, string Color, double Dinero){
     this->Nombre=Nombre;
