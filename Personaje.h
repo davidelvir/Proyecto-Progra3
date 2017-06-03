@@ -55,7 +55,5 @@ class Personaje{
         virtual void ArmaEspecial(Personaje*,Personaje*)=0;
         
 
-
-
 };
 #endif

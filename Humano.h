@@ -1,21 +1,25 @@
 #include <iostream>
 #include <string>
 #include "Personaje.h"
-#include "Persona.h"
 
 using namespace std;
 
-#ifndef JUGADOR_H
-#define JUGADOR_H
-class Jugador: public Persona{
+#ifndef HUMANO_H
+#define HUMANO_H
+
+class Humano:public Personaje{
+
     protected:
 
-	Personaje personaje;
+	string Color;
 
     public:
-        Jugador(string,string,string,int,string, Personaje);
+        Jugador(string,double,double,double,string,int,string);
         Jugador();
 		Personaje getPersonaje();
 		void setPersonaje(Personaje personaje);
+
+
+
 };
 #endif
