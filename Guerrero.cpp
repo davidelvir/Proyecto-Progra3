@@ -1,6 +1,6 @@
-#inclu	de "Humano			.				h"	
+#include "Humano.h"	
 
-Humano::Humano(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello, string Color, double Dinero){
+Guerrero::Guerrero(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello, string Color, double Dinero){
     this->Nombre=Nombre;
     this->Vida=Vida;
     this->Defensa=Defensa;
@@ -15,7 +15,7 @@ Humano::Humano(string Nombre, double Vida, double Defensa, double Ataque,string 
     this->Dinero=Dinero;
 }
 
-Humano::Humano(){
+Guerrero::Guerrero(){
 
 	this->Vida=300;
 	this->Defensa=150;
@@ -29,10 +29,10 @@ Humano::Humano(){
 
 }
 
-void Humano::setColor(string Color){
+void Guerrero::setColor(string Color){
    this-> Color=Color;
 }
 
-string Humano::getColor(){
+string Guerrero::getColor(){
    return Color;
 }
