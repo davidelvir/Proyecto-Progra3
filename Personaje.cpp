@@ -7,12 +7,12 @@ using namespace std;
 
 Personaje::Personaje(string Nombre, double Vida, double Defensa, double Ataque,string Reputacion,int Nivel,int Experiencia,int Bolas,string estiloCabello,double Dinero){
 
-	this->Nombre=Nombre;
+	  this->Nombre=Nombre;
     this->Vida=Vida;
     this->Defensa=Defensa;
     this->Ataque=Ataque;
     this->Reputacion=Reputacion;
-	this->Nivel=Nivel;
+	  this->Nivel=Nivel;
     this->Experiencia=Experiencia;
     this->Bolas=Bolas;
     this->estiloCabello=estiloCabello;
@@ -35,7 +35,7 @@ string Personaje::getNombre(){
 	return Nombre;
 }
 void Personaje::setNombre(string pNombre){
-	Nombre = pNombre
+	Nombre = pNombre;
 }
 
 double Personaje::getVida(){
@@ -69,6 +69,6 @@ void Personaje::setReputacion(string pReputacion){
 int Personaje::getNivel(){
 	return Nivel;
 }
-void Personaje::setNivel(pNivel){
+void Personaje::setNivel(int pNivel){
 	Nivel = pNivel;
 }

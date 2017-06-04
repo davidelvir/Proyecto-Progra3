@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include "Item.h"
-#include "Personaje.h"
+#include "Bestia.h"
 
 using namespace std;
 
@@ -53,12 +53,12 @@ class Personaje{
         int getNivel();
         void setNivel(int);
 
-        virtual void Ataque(Personaje*,Personaje*)=0;
+        /*virtual void Ataque(Personaje*,Personaje*)=0;
         virtual void AtaquePasivo(Personaje*,Personaje*)=0;
         virtual void Habilidad1(Personaje*,Personaje*)=0;
         virtual void Comprar(double)=0;
         virtual void CortarPelo(double)=0;
-        virtual void ArmaEspecial(Personaje*,Personaje*)=0;
+        virtual void ArmaEspecial(Personaje*,Personaje*)=0;*/
         
 
 };
