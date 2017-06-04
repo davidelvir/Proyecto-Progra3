@@ -3,8 +3,8 @@
 #define NOBLE_H
 
 class Noble : public Humano{
-
-  Noble();
+  public: 
+    Noble();
 
 
 };
