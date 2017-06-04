@@ -1,5 +1,5 @@
 #include "Burro.h"
-#include "Bestia.h""
+#include "Bestia.h"
 Burro::Burro(){
 }
 Burro::Burro(string color, double tamanoOreja,string nombre): Bestia(nombre){
