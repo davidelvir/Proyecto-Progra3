@@ -6,7 +6,7 @@
 using namespace std;
 class Bestia
 {
-	private:
+	protected:
 		vector<Item> items;
 		string nombre;
 	public:
